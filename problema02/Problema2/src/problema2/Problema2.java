@@ -41,7 +41,7 @@ public class Problema2 {
                 descuento = (valor * 0.01) / 100;
                 total = descuento + 2;
                 System.out.printf("Peaje Buena via\nPropeitario: %s\n"
-        + "Tipo: %s\n Valor vehiculo:%.2f\n"
+        + "Tipo: %s\nValor vehiculo:%.2f\n"
         + "Peaje:%.2f",propietario,vehiculo,valor,total);
                 break;
             case "pesado particular":
@@ -50,7 +50,7 @@ public class Problema2 {
                 descuento = (valor * 0.02) / 100;
                 total = descuento + 2.50;
                 System.out.printf("Peaje Buena via\nPropeitario: %s\n"
-        + "Tipo: %s\n Valor vehiculo:%.2f\n"
+        + "Tipo: %s\nValor vehiculo:%.2f\n"
         + "Peaje:%.2f",propietario,vehiculo,valor,total);
                 break;
             case "taxi":
@@ -58,7 +58,7 @@ public class Problema2 {
                 descuento = (valor * 0.04) / 100;
                 total = descuento + 1.50;
                 System.out.printf("Peaje Buena via\nPropeitario: %s\n"
-        + "Tipo: %s\n Valor vehiculo:%.2f\n"
+        + "Tipo: %s\nValor vehiculo:%.2f\n"
         + "Peaje:%.2f",propietario,vehiculo,valor,total);
                 break;
             case "bus urbano":
@@ -68,7 +68,7 @@ public class Problema2 {
                 descuento = (valor * 0.05) / 100;
                 total = descuento + 2.20;
                 System.out.printf("Peaje Buena via\nPropeitario: %s\n"
-        + "Tipo: %s\n Valor vehiculo:%.2f\n"
+        + "Tipo: %s\nValor vehiculo:%.2f\n"
         + "Peaje:%.2f",propietario,vehiculo,valor,total);
                 break;
             default:
